@@ -1,0 +1,265 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+body
+{
+background-color:grey;
+
+}
+.etusivu
+{
+width:1200px;
+height:auto;
+/*background-color:yellow;*/
+position: relative;
+margin:0 auto 0 auto;
+}
+#navi
+{
+width:1200px;
+height:50px;
+position:relative;
+background-color:grey;
+}
+
+
+#navi ul {
+   margin:0;
+   padding:0;
+   list-style:none;
+   float:right;
+   position:relative;
+   right:50%;
+}
+#navi ul li {
+   margin: 0px;
+   padding:0px;
+   float:left;
+   position:relative;
+   left:50%;
+padding:10px;
+   
+}
+.valikko
+{
+width:1200px;
+height:190px;
+/*background-color: #7F7F7F;*/
+position: relative;
+left: 50%;
+margin-left: -600px;
+}
+
+.valikkolayer
+{
+position: relative;
+width:240px;
+height: 180px;
+float: top;
+float:right; 
+margin-right: 10px;
+margin-top: 0px;
+/*background-color: #56555A;*/
+}
+
+.valikotoikea
+{
+position: relative;
+width:110px;
+height: 170px;
+float:right; 
+margin-right: 5px;
+margin-top: 0px;
+/*background-color: #7F7F7F;*/
+}
+
+
+
+.valikkonappi
+{
+position: relative;
+width:100px;
+height: 25px;
+float: right; 
+margin-right: 5px;
+margin-top: 0px;
+background-color: #7F7F7F;
+}
+
+.valikkonappikeski
+{
+position: relative;
+width:100px;
+height: 25px;
+float: right; 
+margin-right: 5px;
+margin-top: 0px;
+background-color: #7F7F7F;
+}
+.valikkonappikeskivali
+{
+position: relative;
+width:100px;
+height: 10px;
+float: right; 
+margin-right: 5px;
+margin-top: 0px;
+background-color: #7F7F7F;
+}
+
+.lisaanappi
+{
+position: relative;
+width:50px;
+height: 30px;
+
+float:right; 
+margin-right: 0px;
+margin-top: 60px;
+background-color: #7F7F7F;
+}
+
+.lisaalayer
+{
+position: relative;
+width:1200px;
+height: 100%;
+background-color:#56555A;
+float:left; 
+margin-left: 10px;
+margin-top: 0px;
+
+}
+
+.lisaalayervasen
+{
+position: relative;
+width:920px;
+height: 170px;
+
+float:left; 
+margin-left: 9px;
+margin-top: 0px;
+background-color: #7F7F7F;
+}
+
+.tekstikenttaotsikko
+{
+position: relative;
+width:300px;
+height: 20px;
+
+float:left; 
+margin-left: 0px;
+margin-top: 0px;
+background-color: #7F7F7F;
+}
+/* seuraavan voi poistaa myohemmin, sama kuin tekstikenttaotsikko, mutta testivaiheessa eri väri, ei ole pakko poistaa kuitenkaan */
+.tekstikentta
+{
+position: relative;
+width:300px;
+height: 20px;
+
+float:left; 
+margin-left: 5px;
+margin-bottom: 4px;
+background-color: #7F7F7F;
+}
+.tekstikenttaotsikkopieni
+{
+position: relative;
+width:80px;
+height: 20px;
+
+float:left; 
+margin-right: 0px;
+margin-top: 0px;
+background-color: #7F7F7F;
+}
+.tekstikenttapieni
+{
+position: relative;
+width:100px;
+height: 20px;
+
+float:left; 
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 4px;
+background-color: #7F7F7F;
+}
+
+.lisaalayeroikea
+{
+position: relative;
+width:260px;
+height: 170px;
+
+float:right; 
+margin-right: 0px;
+margin-top: 0px;
+background-color: #7F7F7F;
+}
+
+.tekstikenttaiso
+{
+position: relative;
+width:450px;
+height: 80px;
+/*float: top;*/
+float:left; 
+margin-left: 0px;
+margin-top: 0px;
+background-color: #7F7F7F;
+}
+
+.lisaalayerkeski
+{
+position: relative;
+width:400px;
+height: 120px;
+left: 50%;
+margin-left: -200px;
+background-color: #7F7F7F;
+}
+
+.alasveto
+{
+position: relative;
+width:300px;
+height: 20px;
+float:left; 
+margin-left: 5px;
+margin-bottom: 4px;
+background-color: #7F7F7F;
+}
+
+.alasveto1
+{
+position: relative;
+width:300px;
+height: 20px;
+float:left; 
+margin-right: 0px;
+margin-bottom: 4px;
+background-color: #7F7F7F;
+
+}
+.alasvedondiv
+{
+position: relative;
+width:300px;
+height: 20px;
+float:left; 
+margin-right: 0px;
+margin-top: 40px;
+background-color: #7F7F7F;
+
+}
+
+
+

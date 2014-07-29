@@ -1,0 +1,153 @@
+*
+
+body
+{
+background-color: #7F7F7F;
+
+}
+.etusivu
+{
+width:1100px;
+height:auto;
+background-color:yellow;
+position: relative;
+left: 50%;
+margin-left: -550px;
+}
+
+.valikko
+{
+width:1100px;
+height:130px;
+background-color: #7F7F7F;
+position: relative;
+left: 50%;
+margin-left: -550px;
+}
+
+.valikkolayer
+{
+position: relative;
+width:280px;
+height: 120px;
+
+float:right; 
+margin-right: 10px;
+margin-top: 5px;
+background-color: #7F7F7F;
+
+}
+
+.valikotoikea
+{
+position: relative;
+width:120px;
+height: 80px;
+float: top;
+float:right; 
+margin-right: 0px;
+margin-top: 0px;
+background-color: #7F7F7F;
+
+}
+
+.valikkonappi
+{
+position: relative;
+width:100px;
+height: 30px;
+float: top;
+float:right; 
+margin-right: 0px;
+margin-top: 3px;
+background-color: #7F7F7F;
+
+}
+
+.lisaalayerkeski
+{
+position: relative;
+width:800px;
+height: 120px;
+/*left: 50%;
+margin-left: -400px;*/
+margin-top:5px;
+margin-left: 5px;
+float:left;
+
+background-color: #7F7F7F;
+
+}
+
+.sisalto
+{
+width:1100px;
+height:500px;
+background-color: #7F7F7F;
+
+position: relative;
+left: 50%;
+margin-left: -550px;
+}
+
+.tunnustiedot
+{
+width:500px;
+height:150px;
+position: relative;
+left: 50%;
+margin-left: -250px;
+margin-top: 20px;
+background-color: black;
+
+}
+
+.muutasala
+{
+width:500px;
+height:150px;
+position: relative;
+left: 50%;
+margin-left: -250px;
+margin-top: 10px;
+background-color: black;
+
+}
+.tekstikenttaotsikko
+{
+position: relative;
+width:200px;
+height: 20px;
+
+float:left; 
+margin-left: 10px;
+margin-top: 10px;
+background-color: #7F7F7F;
+
+}
+
+.tekstikentta
+{
+position: relative;
+width:200px;
+height: 20px;
+
+/*float:left; */
+margin-left: 10px;
+margin-top: 10px;
+background-color: #7F7F7F;
+
+}
+
+.tunnusnappi
+{
+position: relative;
+width:100px;
+height: 30px;
+
+float:right; 
+margin-right: 10px;
+margin-top: 3px;
+background-color: #7F7F7F;
+
+}

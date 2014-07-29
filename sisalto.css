@@ -1,0 +1,117 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+.sisalto
+{
+width:1200px;
+height:auto;
+
+position: relative;
+left: 50%;
+margin-left: -600px;
+}
+
+
+.kuvabox
+{
+width:393px;
+height:520px;
+float: left;
+color:white;
+background-color: black;
+margin-left: 5px;
+margin-bottom: 5px;
+}
+.tuotenapit {
+/*width:300px;
+height:30px;*/
+position:absolute;
+bottom:0;
+}
+img {
+  width:  auto;
+  height: auto;
+max-width: 393px;
+max-height: 250px;
+width: expression(this.width > 359 ? "393px" : true);
+height: expression(this.height > 250 ? "250px" : true);
+border:0px;
+}
+
+.kuvat {
+display: block;
+font-size: 100%;
+width: 200px;
+height: 130px;
+margin: 0 auto 0 auto;
+}
+
+.tietoja{
+width: 390
+}
+
+
+
+/* dropdown menu alkaa */
+
+
+.tuoteinfo{
+	list-style:none;
+	/*font-weight:bold;*/
+	margin-bottom:1px;
+	/* Clear floats */
+	float:left;
+	width:390px;
+
+}
+.tuoteinfo li{
+	float:left;
+	margin-right:10px;
+	position:relative;
+}
+.tuoteinfo a{
+	display:block;
+	/*padding:5px;*/
+	color:#ffffff;
+	background:#000000;
+	text-decoration:none;
+}
+.tuoteinfo ul{
+	width:300px;
+	list-style:none;
+	position:absolute;
+}
+.tuoteinfo a:hover{
+	color:#ffffff;
+	background:#000000;
+	}
+
+/*--- DROPDOWN ---*/
+.tuoteinfo ul{
+	
+	list-style:none;
+	position:absolute;
+}
+.tuoteinfo ul li{
+	padding-top:1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	float:none;
+}
+
+
+.tuoteinfo li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	background:#000000;
+	}
+.tuoteinfo li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+.tuoteinfo li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	
+}
+
+
+
+
+/* dropdown menu loppuu */

@@ -1,0 +1,29 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+.tunnuskentta
+{
+position: relative;
+width:300;
+height: 40;
+float: top;
+float:left; 
+margin-right: 0px;
+margin-top: 0px;
+
+}
+
+
+.salasanakentta
+{
+position: relative;
+width:300;
+height: 40;
+float: top;
+float:left; 
+margin-right: 0px;
+margin-top: 0px;
+}

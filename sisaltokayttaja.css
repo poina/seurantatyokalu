@@ -1,0 +1,73 @@
+*
+/* tassa on maarityksia kayttaja.php tiedostoon. Tassa on tehty kayttajien listaukseen liittyvia diveja*/
+{
+margin: 0;
+padding: 0;
+}
+/* alakertadiv, johon laitetaan kaikki luettelodivit ja niiden yksilödivit jne */
+.sisalto
+{
+width:1200px;
+height:800px;
+background-color: #7F7F7F;
+position: relative;
+left: 50%;
+margin-left: -600px;
+}
+
+/*tassa on div, jonka sisalla on varsinainen kayttajatunnusbox. talla tehdaan alaviiva samalla*/
+
+.kayttajatunnusboxviiva
+{
+width:1100px;
+height:28px;
+float: left;
+color:black;
+background-color: black;
+margin-left: 50px;
+margin-bottom: 3px;
+margin-top: 2px;
+}
+
+/* taalta loytyy div, jonka sisalla on tunnusboxi-divit */
+.kayttajatunnusbox
+{
+width:1100px;
+height:25px;
+float: left;
+color:black;
+background-color: #ECECEC;
+margin-left: 0px;
+margin-bottom: 5px;
+}
+
+/* tassa on tunnuksien, salasanojen otsikkoboxit(?) */
+.tunnusboxotsikko
+{
+width:200px;
+height:25px;
+float:left;
+background-color:#DEDEDE;
+margin-left: 5px;
+margin-right:55px;
+}
+/* tassa on boxit, joiden mukaan maaritellaan tunnus ja salasanakenttien tekstit */
+.tunnusbox
+{
+width:200px;
+height:25px;
+float:left;
+background-color:#DEDEDE;
+margin-left: 5px;
+margin-right:55px;
+}
+ /* taalla on tunnuksen poistonappi */ 
+.poistanapinbox
+{
+width:200px;
+height:25px;
+float:right;
+background-color:#ECECEC;
+
+}
+

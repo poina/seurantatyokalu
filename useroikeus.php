@@ -1,0 +1,10 @@
+<?php
+session_start();
+
+//tarkastetaan onko sessio user päällä, jos ei ole ohjataan kirjautumaan.
+if (!isset($_SESSION['user'])) 
+	{
+		header('Location: index.php');
+	}
+
+?>
